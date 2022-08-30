@@ -1,6 +1,10 @@
 # what OOP?
 
 - table of content:
+    - [1-what is OOP](#1--what-is-object-oriented-programming-oop)
+    - [2-what important](#2--what-important)
+    - [3- what is the structure?](#3--what-is-the-structure-of-oop)
+    - [4- what is the main principless of OOP?](#4--what-are-the-main-principles-of-oop)
 
 here is a theoretical explanation for OOP in another readme file in the same repository that will have code examples
 
