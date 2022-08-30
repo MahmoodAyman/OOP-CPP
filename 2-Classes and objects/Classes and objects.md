@@ -34,6 +34,9 @@ private: // scope
 // all attributes inside private scope called member private and you can access it in this class only
     string car_name, car_color;
     int max_speed, car_model;
+
+    // if you don't write private and attributes out of any scope 
+    //by defalut attributes will be private
 public:
     // setters to set values to attributes 
     void set_name(string name)
