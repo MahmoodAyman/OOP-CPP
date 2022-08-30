@@ -35,7 +35,7 @@ public:
 ## 1- types of constructors:
 
 ## **empty constructor:**
-
+also called default constructor or no-argument constructor 
  ****called empty cause we don’t pass any parameter to it at all.. (there are no parameters between parentheses ()
 
 ```cpp
@@ -50,6 +50,8 @@ public:
 ## **Parameterized Constructor**:
 
 constructor that has parameters you can use to set values to class attributes direct when declare object from a class
+
+<p style="color:red;">once you define a parameterized constructor you can't declare object without passing parameters to it</p>
 
 ```cpp
 #include<bits/stdc++.h>
