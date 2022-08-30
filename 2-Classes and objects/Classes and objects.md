@@ -106,3 +106,56 @@ int main()
 ---
 
 in the same way, you can translate any real-world object into a programming object for example a person, employee, or student….
+
+
+### see this 
+    
+```cpp
+#include <iostream> 
+using namespace std;
+class person
+{
+public:
+    void set_name(string name)
+    {
+        this->name = name;
+    }
+    void set_age(int age)
+    {
+        this->age = age;
+    }
+    void set_address(string address)
+    {
+        this->address = address;
+    } 
+    // this pointer is used to access the attributes of the class
+    string get_name()
+    {
+        return name;
+    }
+    int get_age()
+    {
+        return age;
+    }
+    string get_address()
+    {
+        return address;
+    }
+    void print()
+    {
+        cout << "Name: " << get_name() << endl;
+        cout << "Age: " << get_age() << endl;
+        cout << "Address: " << get_address() << endl;
+    }
+private:
+    string name;
+    int age;
+    string address;
+};
+```
+see here the private scope with attributes are below the public scope with methods 
+
+may be you think that will cause error cause you know... c++ is sequential language and you can't access the attributes  of the class by methods before you define them
+
+but OOP is depend on the concept of encapsulation and we will know about encapsulation soon
+
