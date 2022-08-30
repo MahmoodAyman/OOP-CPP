@@ -51,7 +51,10 @@ public:
 
 constructor that has parameters you can use to set values to class attributes direct when declare object from a class
 
-<p style="color:red;">once you define a parameterized constructor you can't declare object without passing parameters to it</p>
+once you define a parameterized constructor you can't declare object without passing parameters to it
+if you want to declare object without passing parameters to it you must define default constructor
+
+```cpp
 
 ```cpp
 #include<bits/stdc++.h>
