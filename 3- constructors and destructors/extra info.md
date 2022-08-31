@@ -29,8 +29,7 @@ int main() {
 I mean you can set values out of the constructor and you can set values in the constructor too.
 
 ---
-## see this example of calling method before define it
-##  and define it out of the class!
+## see this example of calling method before define it and define it out of the class!
 ```cpp
 #include <bits/stdc++.h>
 #include<cstring>
