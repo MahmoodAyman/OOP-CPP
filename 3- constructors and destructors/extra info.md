@@ -50,9 +50,42 @@ public:
 		// as we say we can call method before define it based on concept of 
 		// encapsulation
 	}
-	void print();
+	void print(); // prototype of method
 	// can define method like this and continue it out of the class
 };
+void person::print() { // definition of method
+	cout << "person Name is: " << name << endl;
+	cout << "his ID = " << id << endl;
+	cout << "and his age = " << age << endl;
+}
+int main() {
+	person p("Mahmoud", "123456789", 22);
+}
+```
+
+## also you can define the destructor out of the class 
+
+```cpp
+#include <bits/stdc++.h>
+#include<cstring>
+using namespace std;
+class person {
+private:
+	string name, id;
+	int age;
+public:
+	person(string name, string id, int age); // prototype of constructor
+	~person(); // prototype of destructor 
+	void print();
+};
+person::person(string name, string id, int age) {
+		this->name = name;
+		this->id = id;
+		this->age = age;
+}
+person::~person() {
+	cout << "this is the destrucotr";
+}
 void person::print() {
 	cout << "person Name is: " << name << endl;
 	cout << "his ID = " << id << endl;
@@ -60,5 +93,6 @@ void person::print() {
 }
 int main() {
 	person p("Mahmoud", "123456789", 22);
+	p.print();
 }
 ```
