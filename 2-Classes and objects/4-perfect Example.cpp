@@ -18,11 +18,11 @@ public:
 		name = n;
 		x = { first,second,final }; // first_exam , second_exam, final_exam
 	}
-	void set_name(string n) {
-		name = n;
+	void set_name(string name) {
+		this->name = name;
 	}
-	void set_results(exam e) {
-		x = e;
+	void set_results(exam x) {
+		this->x = x;
 	}
 	double total_result() {
 		return x.first_exam + x.second_exam + x.final_exam;
@@ -64,8 +64,8 @@ public:
 	void set_name(string n) {
 		name = n;
 	}
-	void set_id(string i) {
-		id = i;
+	void set_id(string id) {
+		this->id = id;
 	}
 	void set_subjects(int i, exam e) {
 				string n;
@@ -88,7 +88,7 @@ public:
 	void print();
 };
 void student::print() {
-	cout << "student Name is: " << name << endl;
+	cout << "student Name is: " << this->name << endl;
 	cout << "He got in first subject " << total(0) << endl;
 	cout << "results in brief are" << endl;
 	cout << "first exam = " << get_subject(0).get_first() << endl;

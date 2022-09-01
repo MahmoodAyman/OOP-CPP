@@ -7,6 +7,7 @@
 		- [parameterized constructor](#parameterized-constructor)
 		- [copy constructor](#copy-constructor)
    - [perfect example](#perfect-example)
+   - [declare obj without parameterized constructor or default constructor!](#define-parameterized-constructor-only-and-declare-object-without-constructor)
 
 ## what are constructors?
 
@@ -191,3 +192,33 @@ int main() {
 ```
 
 ---
+
+## define parameterized constructor only and declare object without constructor:
+
+remember when I told you this: 
+
+> once you define a parameterized constructor you can't declare object without passing parameters to it if you want to declare object without passing parameters to it you must define default constructor
+> 
+
+I lied to you 
+
+you can declare object without passing parameters at all but with a little modify on parameterized constructor 
+
+you just need to set an initial values to parameters of parameterized constructor: 
+
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+class my_class {
+public:
+	my_class(int x=0, int y=0) {
+		cout << x + y << endl;
+	}
+};
+int main() {
+	my_class obj;
+
+}
+```
+
+now you're fine 😀
