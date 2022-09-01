@@ -157,5 +157,5 @@ see here the private scope with attributes are below the public scope with metho
 
 may be you think that will cause error cause you know... c++ is sequential language and you can't access the attributes  of the class by methods before you define them
 
-but OOP is depend on the concept of encapsulation which allow you to act with all class at the same time and we will know about encapsulation soon
+but OOP allow you to act with all class at the same time and we will know about and can call function even before declaring it
 
