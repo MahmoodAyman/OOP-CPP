@@ -74,9 +74,9 @@ same person has different behavior in different situations
     
     output:
     
-    `value of x is5
-    value of x is: 5 and y is: 3
-    value of x in double is : 5.2`
+    `value of x is5`
+    `value of x is: 5 and y is: 3`
+    `value of x in double is : 5.2`
     
     ### Operator overloading Example:
     
@@ -171,8 +171,8 @@ same person has different behavior in different situations
     
     output of previous code:
     
-    `this message from derived class print function
-    this message from base class show function`
+    `this message from derived class print function`
+    `this message from base class show function`
     
     ---
     
