@@ -126,6 +126,9 @@ int main() {
 ```
 
 ### output for two codes will be:  1 1
+- if you don't understand why you need to define two functions for prefix and postfix unary operations you can read about it from [here](1-operator%20overloading.md#how-compiler-understand-this)
+
+- if you don't get it why you need to add int as a parameter you can read about it from [here](https://en.cppreference.com/w/cpp/language/operator_incdec)
 
 ---
 
