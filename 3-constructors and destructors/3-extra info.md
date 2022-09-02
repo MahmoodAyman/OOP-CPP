@@ -96,3 +96,29 @@ int main() {
 	p.print();
 }
 ```
+
+### how we can pass array to constructor
+
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+class my_class {
+
+public:
+	int arr[3]; // make array public just to access it in main 
+	my_class(int(arr)[3]) { // this is how you pass array to constructor
+		// make parameter equal to 0 just to make no need to default constructor
+		for (int i = 0; i < 3; i++) {
+			this->arr[i] = arr[i] + 2;
+		}
+	}
+};
+int main() {
+	int arr[3] = { 1,2,3 };
+	my_class m1(arr);
+	for (int i = 0; i < 3; i++) {
+		cout << m1.arr[i] << " ";
+	}
+	cout << endl;
+}
+```
