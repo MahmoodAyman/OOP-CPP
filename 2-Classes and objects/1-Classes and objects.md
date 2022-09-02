@@ -1,6 +1,13 @@
 # Classes and objects
 
-## 
+- table of content
+    - [Class Structure](#class-structure)
+    - [Access Modifiers](#access-modifiers)
+       - [Private Scope](#private-scope)
+       - [Public Scope](#public-scope)
+       - [Protected Scope](#protected-scope)
+    - [Example](#here-simple-example-on-classes-for-car)
+## Class Structure
 
 as you see the structure of the class start with :
 
@@ -8,14 +15,20 @@ class name of class {
 
 inside class we define scopes.. there are 3 scopes
 
-- **private scope**: put all attributes inside this scope and this means you can access these only inside class and can’t access them in main function for example
-- **Public scope**:  all methods inside this scope and this means you can access them anywhere in your program. usually we put methods inside this scope and call it member methods of functions.. there are main methods you need to put in you class in general
+## Access Modifiers
+
+- ### private scope:
+ put all attributes inside this scope and this means you can access these only inside class and can’t access them in main function for example 
+also you can't access them by sub or drived classes of this class 
+- ### Public scope:
+  all methods inside this scope and this means you can access them anywhere in your program. usually we put methods inside this scope and call it member methods of functions.. there are main methods you need to put in you class in general
     - **set**: set methods are void functions used to set values in your attributes
     - get: get methods are functions with specific type depends on which attribute you need this function to return and this type of functions used to get the values you already set by set methods
     - more methods and functions that update and modify the attributes
-- **protected scope**: same as private scope you can’t access members inside it outside the class but can be accessed by any subclasses
+- ### protected scope:
+ same as private scope you can’t access members inside it outside the class but can be accessed by any subclasses
 
-we will know about subclasses soon
+- we will know about subclasses soon in inheritance
 
 };
 
