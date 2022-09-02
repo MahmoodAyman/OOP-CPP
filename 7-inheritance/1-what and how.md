@@ -2,6 +2,7 @@
 
 table of content: 
 - [Whatis Inheritance](#what-is-it)
+- [Name of the class](#names-of-classes)
 - [Access Modifiers](#access-modifiers)
 - [Example](#how-to-inherent-from-a-class)
 - [types of inheritance](#types-of-inheritance)
@@ -15,10 +16,10 @@ Inheritance is one of the core concepts in OOP and from its name, it’s a mecha
 Inheritance is a way to reuse code. It allows you to create a new class that is a modified version of an existing class. The new class is called a subclass, and the existing class is called a superclass. The subclass inherits all of the public and protected methods from the superclass. It can also add its own methods in addition to inheriting methods from the superclass.
 
 
-in **c++** we call classes:
+### names of classes
 **base class --> derived class**
-in **java** its name is:
 **super class --> sub class**
+**parent class --> child class**
 
 ---
 
