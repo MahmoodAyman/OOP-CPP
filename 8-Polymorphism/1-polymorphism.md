@@ -11,7 +11,7 @@ table of content
 
 ## introduction
 
-first, if you don’t know what is polymorphism at all please read about it from here and continue
+first, if you don’t know what is polymorphism at all please read about it from [here](../1-What%20is%20OOP/2-main%20princeples%20in%20OOP.md#Polymorphism) and continue
 
 briefly 
 
@@ -77,7 +77,7 @@ same person has different behavior in different situations
     `value of x is5`
 
     `value of x is: 5 and y is: 3`
-    
+
     `value of x in double is : 5.2`
     
     ### Operator overloading Example:
